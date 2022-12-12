@@ -1,0 +1,377 @@
+.nav__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16%;
+    padding:0 50px;
+    z-index: 1000000;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.sign{
+    float:right; 
+    padding-right: 80px; 
+    padding-top: 30px;
+}
+.sign .sign_button{
+    color:#fff;
+    border: none;
+    font-size: large;
+    border-radius: 8px;
+    padding: 10px 24px;
+    background-color: #c80d0d;
+   
+}
+.sign .language{
+    
+    font-size: large;
+    border-radius: 8px;
+    padding: 10px 24px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+   
+   
+}
+
+.banner {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    object-fit: contain;
+    height: 700px;
+}
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 152px;
+    height: 190px;
+}
+.banner__title {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.banner__title2 {
+    font-size: 2.1rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding-bottom: 1rem 0 ; 
+    text-align: center;
+}
+.banner__title3 {
+    
+    text-align: center;
+     
+    font-size: 1.2rem;
+    max-width: none;
+    padding: 15px 0;
+    padding-bottom: 20px;letter-spacing: 1.5px;
+}
+
+.mail {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border: none;
+    outline: none;
+ 
+}
+.mail input{
+    width: 400px;
+    height:65px
+    ;
+}
+.mail button{
+    color: #fff;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    height: 65px;
+    font-size: 26px;
+}
+
+
+.banner__fadeBottom {
+    margin-top: 59px;
+    height: 28.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
+
+/* part1 */
+
+.part1{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    margin:50px 0px;
+}
+ 
+.left-section{
+    width:50%;
+    float: left;
+    
+}
+.right-section{
+    width: 50%;
+    float: left;
+} 
+
+.right-section img{
+    width: 80%;
+    
+}
+.left-section h1{
+    justify-content: center;
+    font-size: 5.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    padding-top: 207px;
+    padding-left: 118px;
+    padding-bottom: 52px;
+    color: #fff;
+}
+.left-section h2{
+    justify-content: center;
+    font-size: 1.625rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    color: #fff;
+
+}
+
+/* Netflix originals */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+}
+
+.row__poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+
+}
+
+.row__posters{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row__poster:hover{
+    transform: scale(1.1);
+}
+
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row__poster{
+    max-height:400px;
+}
+
+.row__poster:hover{
+    transform: scale(1.2);
+}
+
+.row{
+    color: white;
+    margin-left: 20px;
+}
+
+/* part2 */
+
+.part2{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    margin:10px 0px;
+    
+
+
+}
+ 
+.left-section{
+    width:50%;
+    float: left;
+    
+}
+.right-section{
+    width: 50%;
+    float: left;
+} 
+
+.right-section img{
+    width: 100%;
+    
+}
+.left-section h1{
+    justify-content: center;
+    font-size: 5.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    padding-top: 207px;
+    padding-left: 118px;
+    padding-bottom: 52px;
+    color: #fff;
+}
+.left-section h2{
+    justify-content: center;
+    padding: 11px 116px;
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+
+}
+
+/* part3 */
+
+.part3{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    margin:10px 0px;
+    
+
+}
+ 
+.left-section{
+    width:50%;
+    float: left;
+    
+}
+.right-section{
+    width: 50%;
+    float: left;
+} 
+
+.right-section img{
+    width: 100%;
+    
+}
+.left-section h1{
+    justify-content: center;
+    font-size: 4.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    padding-top: 207px;
+    padding-left: 118px;
+    padding-bottom: 52px;
+    color: #fff;
+}
+.left-section h2{
+    justify-content: center;
+    padding: 11px 116px;
+    color: #fff;
+    font-size: 1.625rem;
+    font-weight: 400;
+
+}
+
+
+/* questions */
+
+.question{
+    padding-bottom: 100px;
+    margin: 10px 0px ;
+    text-align: center;
+    background-color: black;
+    
+}
+.question h1{
+    padding-top: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 3.125rem;
+}
+.question h3{
+    padding-top: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.125rem;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.part4{
+    text-align: justify;
+    width: 1000px;
+    height: 90px;
+    background-color: #414341;
+    color: #fff;
+    font-size: 2em;
+    margin: 5px;
+}
+.part4 .qn{
+   
+    padding: 20px ;
+}
+.part4 .plus{
+    float: right;
+    padding-right: 20px;
+    font-size: 1.65em;
+    font-weight:lighter;
+}
+
+.item{
+    margin-top: 50px;
+}
+.qn1{
+    
+    text-align: center; 
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4rem;
+    
+}
+.footer .one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 25%;
+}
+.footer .one li{
+    list-style-type: none;
+    color: #414341;
+    text-decoration: none;
+    padding: 7px 0;
+}
+.footer .one p{
+    color: #414341;
+    font-size: 1.2em;
+}
